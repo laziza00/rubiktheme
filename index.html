@@ -15,7 +15,7 @@
 
 <body>
 
-
+<div class="hero-img">
   <header class="site-header">
     <div class="container">
       <div class="header-inner row middle between">
@@ -111,22 +111,22 @@
                       </ul>
                     </li>
                     <li class="categ-item-big col-4">
-                      <ul class="categ-list nimadir">
+                      <ul class="categ-list ">
                         <li class="categ-item categ-title">
                           home
                         </li>
                         <li class="categ-item row middle">
                            <p class="categ-link">Accessories</p> 
                           <i class='bx bx-chevron-down cehron-right'></i>
-                          <div class="access-drop-box">
-                            <ul class="categ-list access-list">
-                              <li class="categ-item acces-item">
+                          <div class="access-drop-box ">
+                            <ul class=" access-list">
+                              <li class="categ-link acces-item">
                                 bottle openers
                               </li>
-                              <li class="categ-item acces-item">
+                              <li class="categ-link acces-item">
                                 tablewers
                               </li>
-                              <li class="categ-item acces-item">
+                              <li class="categ-link acces-item">
                                 trivets
                               </li>
                             </ul>
@@ -135,18 +135,76 @@
                          <li class="categ-item row middle">
                           <p class="categ-link">Accessories</p> 
                           <i class='bx bx-chevron-down cehron-right'></i>
+                          <div class="access-drop-box2 ">
+                            <ul class=" access-list">
+                              <li class="categ-link acces-item">
+                                bottle openers
+                              </li>
+                              <li class="categ-link acces-item">
+                                tablewers
+                              </li>
+                              <li class="categ-link acces-item">
+                                trivets
+                              </li>
+                              <li class="categ-link acces-item">
+                                trivets
+                              </li>
+                              <li class="categ-link acces-item">
+                                trivets
+                              </li>
+                            </ul>
+                          </div>
                          </li>
                          <li class="categ-item row middle">
                           <p class="categ-link">Accessories</p> 
                           <i class='bx bx-chevron-down cehron-right'></i> 
+                          <div class="access-drop-box3 ">
+                            <ul class=" access-list">
+                              <li class="categ-link acces-item">
+                                bottle openers
+                              </li>
+                              <li class="categ-link acces-item">
+                                tablewers
+                              </li>
+                            </ul>
+                          </div>
                          </li>
                          <li class="categ-item row middle">
                           <p class="categ-link">Accessories</p> 
                           <i class='bx bx-chevron-down cehron-right'></i>
+                          <div class="access-drop-box4 ">
+                            <ul class=" access-list">
+                              <li class="categ-link acces-item">
+                                bottle openers
+                              </li>
+                              <li class="categ-link acces-item">
+                                tablewers
+                              </li>
+                              <li class="categ-link acces-item">
+                                trivets
+                              </li>
+                              <li class="categ-link acces-item">
+                                trivets
+                              </li>
+                              <li class="categ-link acces-item">
+                                trivets
+                              </li>
+                            </ul>
+                          </div>
                          </li>
                          <li class="categ-item row middle">
                           <p class="categ-link">Accessories</p> 
                           <i class='bx bx-chevron-down cehron-right'></i>
+                          <div class="access-drop-box5 ">
+                            <ul class=" access-list">
+                              <li class="categ-link acces-item">
+                                bottle openers
+                              </li>
+                              <li class="categ-link acces-item">
+                                tablewers
+                              </li>
+                            </ul>
+                          </div>
                          </li>
                        
                       </ul>
@@ -202,15 +260,15 @@
           </ul>
         </nav>
         <div class="row middle">
-         <div class="searchbox">
+         <button class="searchbox" id="openmodalsearch">
           <i class='bx bx-search'></i>
-         </div>
-         <div class="personbox">
+         </button>
+         <button class="pesonbtn" id="btnpersonid">
           <i class='bx bx-user'></i>
-         </div>
-          <div class="kozina">
+         </button>
+          <button class="korzina" id="korzinaid">
             <i class='bx bx-shopping-bag'></i>
-          </div>
+          </button>
         </div>
       
       </div>
@@ -218,11 +276,75 @@
   </header>
 
 <section class="hero-section">
-
+<div class="container">
+  <div class="hero-inner ">
+    <div class="hero-info">
+      <div class="hero-block">
+      <p class="hero-text">
+        furniture 2021
+      </p>
+      <h1 class="hero-title">creative chair</h1>
+      <a class="discow" href="#">discower now</a>
+    </div>
+    <div class="flur"></div>
+  </div>
+ 
+  </div>
+</div>
 </section>
 
 
+</div>
 
+
+<div class="searchmodalbox" id="modalboxsearch">
+  <div class="searchinner">
+    <button class="remove" id="removeid">X</button>
+    <p class="modal-text">what are you looking for?</p>
+    <div class="searchinput row middle between">
+      <input class="input" type="text" placeholder="search">
+      <button class="searchbox"><i class='bx bx-search serachimg'></i></button>
+    </div>
+    <p class="modal-text modal-text2">No produst found</p>
+  </div>
+</div>
+
+<div class="personmodalbox" id="modalboxperson">
+  <div class="personinner">
+    <button class="remove2" id="removeid2">X</button>
+    <div class="row midddle center link-box">
+      <a class="signin in" href="#">sign in</a>
+      <hr class="tophr">
+      <a  class="signin regitsr" href="#">registr</a>
+    </div>
+    <div class="input-box">
+      <form action="https://echo.htmlacademy.ru">
+          <input class="input-label email" type="text" name="email" id="email" placeholder=" email " required>
+         <input  class="input-label sign-password"  type="password" name="email" id="password" placeholder="Password" required>
+          <button class="btn-form sign-up-btn" type="submit">Sign in</button>
+      </form>
+  </div>
+  <a class="forgot-link" href="#">Forgot your Password?</a>
+  <a class="comp-text" href="#">compare (0)</a>
+  <a class="comp-text" href="#">wishlist (0)</a>
+  <a class="comp-text" href="#">english</a>
+  <a class="comp-text" href="#">usd</a>
+
+  </div>
+</div>
+
+
+
+
+<div class="korzinamodalbox" id="modalboxkorzina">
+  <div class="korzininner">
+    <div class="korzinbox row middle center  ">
+      <button class="remove3" id="removeid3">X</button>
+      <p class="card-text">Your cart</p>
+    </div>
+  <p class="cards-text">There are no more items in your cart</p>
+  </div>
+</div>
   <script src="js/main.js"></script>
 </body>
 
