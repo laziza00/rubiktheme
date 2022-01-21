@@ -474,10 +474,10 @@ body {
   font-size: 48px;
   font-weight: 600;
 }
-.hero-block{
+/* .hero-block{
   padding-left: 170px;
-}
-.hero-info{
+} */
+/* .hero-info{
   width: 0;
   overflow: hidden;
   height: 100px;
@@ -494,7 +494,7 @@ body {
     width: 600px;
   }
   
-}
+} */
 
 
 /* .flur{
@@ -504,10 +504,10 @@ body {
   height: 100px;
   width: 590px;
 } */
-
+/* 
 .hero-nfo:hover{
   width: 100%;
-}
+} */
 
 
 .discow{
