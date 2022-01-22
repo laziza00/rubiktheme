@@ -18,11 +18,11 @@ let elpesonbtn=document.getElementById('btnpersonid');
 let elremove2=document.getElementById('removeid2');
 
 elpesonbtn.addEventListener('click',function () {
-elpersonmodalbox.classList.add('show');
+elpersonmodalbox.classList.add('show3');
 });
 
 elremove2.addEventListener('click',function () {
-elpersonmodalbox.classList.remove('show');
+elpersonmodalbox.classList.remove('show3');
  });
 
 
@@ -33,9 +33,25 @@ let elkorzina=document.getElementById('korzinaid');
 let elremove3=document.getElementById('removeid3');
 
 elkorzina.addEventListener('click',function () {
-elkorzinamodalbox.classList.add('show');
+elkorzinamodalbox.classList.add('show3');
 });
 
 elremove3.addEventListener('click',function () {
-elkorzinamodalbox.classList.remove('show');
+elkorzinamodalbox.classList.remove('show3');
+ });
+
+
+
+
+
+let elbluemodal=document.getElementById('blueboxmodal');
+let elbluebtn=document.getElementById('openblueid');
+let elremove4=document.getElementById('removeid4');
+
+elbluebtn.addEventListener('click',function () {
+elbluemodal.classList.add('show2');
+});
+
+elremove4.addEventListener('click',function () {
+elbluemodal.classList.remove('show2');
  });
