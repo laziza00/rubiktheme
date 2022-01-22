@@ -554,31 +554,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .searchbox{
   border: none;
   cursor: pointer;
@@ -998,15 +973,11 @@ body {
   background-color: rgba(204, 204, 204, 0.623);
 
 }
-
-
 .show2{
   opacity: 1;
   width: 330px;
   transition: all 0.4s ease;
 }
-
-
 .show{
   opacity: 1;
   height: 100vh;
@@ -1064,8 +1035,14 @@ body {
 
 }
 .furnit-box{
+  content: '';
+  display: block;
+  height: 300px;
   overflow: hidden;
   padding: 50px 5px 40px 40px;
+  transition: all 1.3s ease;
+  background-repeat: no-repeat;
+  background-size: cover;
   transition: all 1.3s ease;
 }
 .furnit-textbox{
@@ -1074,31 +1051,14 @@ body {
   left: 10%;
 }
 .furniture-item:nth-child(1) .furnit-box{
-  content: '';
-  display: block;
-  height: 300px;
   background-image: url('../images/time-img.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: all 1.3s ease;
 }
 .furniture-item:nth-child(2) .furnit-box{
-  content: '';
-  display: block;
-  height: 300px;
   background-image: url('../images/orange-chair.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: all 1.3s ease;
 }
 .furniture-item:nth-child(3) .furnit-box{
-  content: '';
-  display: block;
-  height: 300px;
   background-image: url('../images/hanging-ligth.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: all 1.3s ease;
+
 }
 .furniture-item:hover .furnit-box{
   transform: scale(1.1);
@@ -1323,52 +1283,30 @@ body {
   transition: all;
 }
 .chair-button{
+  position: absolute;
   transition: all 0.2s ease;
+  background: #222;
+  padding: 15px 0px 15px 0px;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  opacity: 0;
+  transition: all 0.4s ease;
+  border: none;
+  z-index: 100;
 }
 .chair-button:nth-child(3){
-  position: absolute;
   bottom: 48px;
   left: 163px;
-  width: 50px;
-  height: 50px;
-  background: #222;
-  padding: 15px 0px 15px 0px;
-  color: #fff;
-  font-size: 22px;
-  opacity: 0;
-  transition: all 0.4s ease;
-  border: none;
-  z-index: 100;
 }
 .chair-button:nth-child(2){
-  position: absolute;
   bottom: 44px;
   left: 101px;
-  width: 50px;
-  height: 50px;
-  background: #222;
-  padding: 15px 0px 15px 0px;
-  color: #fff;
-  font-size: 22px;
-  opacity: 0;
-  transition: all 0.4s ease;
-  border: none;
-  z-index: 100;
 }
 .chair-button:nth-child(1){
-  position: absolute;
   bottom: 42px;
   left: 39px;
-  width: 50px;
-  height: 50px;
-  background: #222;
-  padding: 15px 0px 15px 0px;
-  color: #fff;
-  font-size: 20px;
-  opacity: 0;
-  transition: all 0.4s ease;
-  border: none;
-  z-index: 100;
 }
 
 .chair-item:hover .chair-button:nth-child(1) {
