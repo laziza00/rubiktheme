@@ -499,7 +499,7 @@ body {
   top: 310px;
   left: 13%;
   width: 500px;
-  height: 350px;
+  height: 200px;
   background: transparent;
   color: #fff;
 }
@@ -510,7 +510,7 @@ body {
   top: 0;
   right: 0;
   width: 500px;
-  height: 350px;
+  height: 200px;
   background: #5584d2;
   box-shadow: -25px 0px 39px 13px #5584d2;
   z-index: 60;
@@ -541,6 +541,7 @@ body {
   display: flex;
   align-items: center;
   width: 110px;
+  cursor: pointer;
   animation: hero-btn 0.4s linear;
 }
 
@@ -548,8 +549,8 @@ body {
 
 .hero__box {
   position: relative;
-  width: 540px;
-  height: 350px;
+  width: 400px;
+  height: 130px;
   background: transparent;
   margin: 0 auto;
   margin-top: 250px;
@@ -595,7 +596,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 540px;
+  width: 400px;
   height: 130px;
   background: #B35346;
   box-shadow: -25px 0px 39px 13px #B35346;
@@ -1492,13 +1493,16 @@ body {
   margin-bottom: 40px;
 }
 .blog-item{
+  width: 444px;
+  height: 515px;
+  overflow: hidden;
   transition: all 0.8s ease;
 }
 .blog-img-box{
   content: '';
   display: block;
-  /* width: 444px; */
   height: 320px;
+  width: 444px;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 15px;
@@ -1572,7 +1576,6 @@ body {
 }
 .blog-list{
   margin-bottom: 40px;
-  /* overflow: hidden; */
 }
 .blog-link{
   padding: 15px 40px;
