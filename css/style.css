@@ -1493,10 +1493,12 @@ body {
   margin-bottom: 40px;
 }
 .blog-item{
-  width: 444px;
-  /* height: 320px; */
-  overflow: hidden;
   transition: all 0.8s ease;
+}
+.blog-img-big{
+  overflow: hidden;
+  height: 320px;
+  width: 444px;
 }
 .blog-img-box{
   content: '';
@@ -1507,7 +1509,6 @@ body {
   background-repeat: no-repeat;
   margin-bottom: 15px;
   transition: all 0.8s ease;
-  overflow: hidden;
 }
 .blog-item:nth-child(1) .blog-img-box{
   background-image: url('../images/8-thumb.jpg');
